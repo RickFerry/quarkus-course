@@ -1,0 +1,67 @@
+#Maven
+bank-service/target/
+bank-service/pom.xml.tag
+bank-service/pom.xml.releaseBackup
+bank-service/pom.xml.versionsBackup
+bank-service/release.properties
+bank-service/.flattened-pom.xml
+
+bank-validation/target/
+bank-validation/pom.xml.tag
+bank-validation/pom.xml.releaseBackup
+bank-validation/pom.xml.versionsBackup
+bank-validation/release.properties
+bank-validation/.flattened-pom.xml
+
+# Eclipse
+.project
+.classpath
+.settings/
+bin/
+
+# IntelliJ
+bank-service/.idea
+bank-service/*.ipr
+bank-service/*.iml
+bank-service/*.iws
+
+bank-validation/.idea
+bank-validation/*.ipr
+bank-validation/*.iml
+bank-validation/*.iws
+
+# NetBeans
+nb-configuration.xml
+
+# Visual Studio Code
+bank-service/.vscode
+bank-service/.factorypath
+
+bank-validation/.vscode
+bank-validation/.factorypath
+
+# OSX
+.DS_Store
+
+# Vim
+*.swp
+*.swo
+
+# patch
+*.orig
+*.rej
+
+# Local environment
+.env
+
+# Plugin directory
+bank-service/.quarkus/cli/plugins/
+
+bank-validation/.quarkus/cli/plugins/
+# TLS Certificates
+bank-service/.certs/
+
+bank-validation/.certs/
+
+# Project exclude paths
+/banking-service/target/

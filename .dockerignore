@@ -1,0 +1,11 @@
+bank-service/*
+bank-service/!target/*-runner
+bank-service/!target/*-runner.jar
+bank-service/!target/lib/*
+bank-service/!target/quarkus-app/*
+
+bank-validation/*
+bank-validation/!target/*-runner
+bank-validation/!target/*-runner.jar
+bank-validation/!target/lib/*
+bank-validation/!target/quarkus-app/*
