@@ -9,3 +9,4 @@ bank-validation/!target/*-runner
 bank-validation/!target/*-runner.jar
 bank-validation/!target/lib/*
 bank-validation/!target/quarkus-app/*
+
