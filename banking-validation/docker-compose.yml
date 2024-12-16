@@ -8,7 +8,7 @@ services:
       - QUARKUS_DATASOURCE_HOST=postgres-db-alura
       - QUARKUS_DATASOURCE_PORT=5432
     ports:
-      - 8181:8181
+      - "8181:8181"
     depends_on:
       - postgres-db-alura
 
@@ -20,7 +20,7 @@ services:
       - POSTGRES_PASSWORD=joao
       - POSTGRES_DB=agencia
     ports:
-      - 5432:5432
+      - "5432:5432"
     volumes:
       - ./init.sql:/docker-entrypoint-initdb.d/init.sql
 

@@ -2,6 +2,8 @@ package br.com.ferry.repository;
 
 import br.com.ferry.domain.Agencia;
 import io.quarkus.hibernate.orm.panache.PanacheRepository;
+import jakarta.enterprise.context.ApplicationScoped;
 
-public interface AgenciaRepository extends PanacheRepository<Agencia> {
+@ApplicationScoped
+public class AgenciaRepository implements PanacheRepository<Agencia> {
 }
