@@ -65,3 +65,6 @@ bank-validation/.certs/
 
 # Project exclude paths
 /banking-service/target/
+banking-validation/target/classes/br/com/alura/SituacaoCadastralRepository.class
+banking-validation/target/classes/br/com/alura/SituacaoCadastralController.class
+banking-validation/target/classes/br/com/alura/Agencia.class
